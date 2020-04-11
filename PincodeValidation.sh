@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "enter a pin code to validate: " code
+read -p "Enter a pin code to validate: " code
 codePattern="([0-9]){6}"
 if [[ $code =~ $codePattern ]]
 then
