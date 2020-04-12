@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 read -p "Enter a pin code to validate: " code
 codePattern="^([1-9]{1}[0-9]{2}[ ]{0,1}[0-9]{3})$"
