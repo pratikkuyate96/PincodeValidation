@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 read -p "Enter a pin code to validate: " code
 codePattern="([0-9]){6}"
